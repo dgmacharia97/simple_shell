@@ -1,12 +1,11 @@
-#include "alx.h"
+#include "shell.h"
 
 /**
- * bfree -  frees a Ptr and Null the address
- * @ptr: Ptr to free
+ * bfree - frees a pointer and NULLs the address
+ * @ptr: address of the pointer to free
  *
- * Return: If freed return 1,else 0.
+ * Return: 1 if freed, otherwise 0.
  */
-
 int bfree(void **ptr)
 {
 	if (ptr && *ptr)
