@@ -7,7 +7,6 @@
  *  Return: exits with a given exit status
  *         (0) if info.argv[0] != "exit"
  */
-
 int _myexit(info_t *info)
 {
 	int exitcheck;
@@ -36,7 +35,6 @@ int _myexit(info_t *info)
  *          constant function prototype.
  *  Return: Always 0
  */
-
 int _mycd(info_t *info)
 {
 	char *s, *dir, buffer[1024];
